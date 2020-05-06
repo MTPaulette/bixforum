@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('default');
 });
 Route::view('/header','header');
+Route::view('/footer','footer');
